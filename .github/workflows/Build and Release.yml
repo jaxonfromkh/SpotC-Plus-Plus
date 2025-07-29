@@ -719,7 +719,6 @@ jobs:
           ${{ env.patchedspotify }}
           ${{ env.altpatchedspotify }}
           ${{ env.eevee-arm }}
-        draft: true
         
     - name: Output Release URL
       run: |
